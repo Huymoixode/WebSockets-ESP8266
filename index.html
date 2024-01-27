@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Temperature and Humidity</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Temperature and Humidity Current</h1>
+    <div class="form-group">
+    
+      
+        <label for="user-input" type="value">Nhập tên thành phố:</label>
+        <input type="text" id="user-input" placeholder="hanoi,saigon,london">
+        <button id="submit-btn">Submit</button>
+    <div class="data-group">
+      <span>Temperature:</span>
+      <span id="temperature">--</span>
+    </div>
+    <div class="data-group">
+        <span>Humidity:</span>
+      <span id="humidity">--</span>
+    </div>
+  </div>
+  <div class="ESP8266">
+    <h1>ESP8266</h1>
+  <div>
+    <span>Temperature ESP8266:</span>
+    <span id="temperature1">--</span>
+  </div>
+  <div>
+    <span>Humidity ESP8266:</span>
+    <span id="humidity1">--</span>
+  </div>
+  </div>
+  <script src="client.js"></script>
+</body>
+</html>

@@ -40,9 +40,9 @@ button.onclick =(event)=>{
 //ket noi api
 console.log("hello")
 var cityname='hanoi';
-const apikey='43b0485950ebbae8188565949bbaa0a2';
+const apikey='your apikey';
 
-const keyapi="43b0485950ebbae8188565949bbaa0a2";
+const keyapi="your apikey";
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('submit-btn').addEventListener('click', function() {
        cityname = document.getElementById('user-input').value;
